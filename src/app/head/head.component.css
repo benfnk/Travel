@@ -1,0 +1,98 @@
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    float: left;
+}
+.head-tag{
+    float: left;
+}
+.tags{
+    margin-left: 10%;
+    width: 95%;
+    float: left;
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.tags img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 1%;
+    border: 2px solid white;
+}
+.tags img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.img-erea{
+    width: 50%;
+    float: left;
+}
+.head{
+    width: 40%;
+    float: left;
+}
+.img-erea{
+    margin-left: 10%;
+}
+.img{
+    float: left;
+    width: 100%;
+}
+.img-erea img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0.95;
+}
+.name{
+    margin-top: 5%;
+    font-size: 45px;
+    margin-left: -130px;
+    z-index: 10;
+    position: relative;
+    font-weight: bold   ;
+}
+.headline{
+    font-size: 35px;
+    z-index: 10;
+    position: relative;
+}
+.shortcut{
+    width: 100%;
+    border-bottom: 1px black solid;
+    display:flex;
+    justify-content:left;
+    margin-top: 1%;
+
+}
+.love,.message{
+    float: left;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1%;
+}
+.message{
+    margin-left: 5%;
+}
+.love{
+    color: red;
+}
+.qount{
+    font-size: 25px;
+}

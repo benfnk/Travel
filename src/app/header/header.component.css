@@ -1,0 +1,55 @@
+.centered{
+    font-family: "Montserrat", sans-serif;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+a,a:active,a:hover{
+	color: black;
+	text-decoration: none;
+}
+.site-logo{
+    width: 45%;
+    float: left;
+    font-size: 38px;
+    font-family: 'Cookie', cursive;
+}
+.nav{
+    width: 45%;
+    float: right;
+    padding-top: 15px;
+}
+span{
+    margin-left: 4%;
+    float: right;
+    font-size: 15px;
+    
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.my{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(111, 170, 224);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+.my:hover{
+    background-color: rgb(79, 150, 216);
+    color: white;
+}
+.ger{
+    padding: 5px;
+}
+.ger-a:hover{
+    color: #1c7a6c;
+}
+.logo{
+    color: #2a9787;
+}
+.logo:hover{
+    color: #187264;
+}

@@ -1,0 +1,112 @@
+.container{
+    margin-top: 8%;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .4);
+    left:0;
+    top:0;
+    right: 0;
+}
+.back{
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin-left: 8%;
+}
+.back:hover{
+    background-color: rgb(207, 207, 207);
+    cursor: pointer;
+}
+*:focus {
+    outline: 0;
+    outline: none;
+}
+.left{
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+    
+}
+.right{
+    width: 25%;
+    float: left;
+}
+
+.box{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 14%;
+
+  width: 90%;
+  margin-left: 2%;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  z-index: 10000;
+  border-radius: 10px;
+  border: rgb(189, 189, 189) 1px solid;
+  padding: 5%;
+  float: left;
+}
+.trip,.trip-content{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+.price{
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+.btn{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1%;
+    background-color: #2a9787;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+.btn:hover{
+    background-color: #3aad9c;
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    float: left;
+    border-bottom: rgb(189, 189, 189) 1px solid;
+    margin-top: 2%;
+}
+.adv,.adv2,.adv3{
+    width: 100%;
+    float: left;
+}
+.adv-head{
+    color: #2a9787;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 2%;
+}
+.adv{
+    margin-top: 2%;
+}
